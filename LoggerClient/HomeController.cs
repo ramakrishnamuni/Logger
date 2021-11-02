@@ -25,8 +25,8 @@ namespace LoggerClient
         {
             try
             {
-                int d = 0;
-                int s = 5 / d;
+                //int d = 0;
+                //int s = 5 / d;
                 await logger.LogAsync(LogLevels.Debug,null, new CustomColumns() { UserName="Rama"});
             }
             catch (Exception ex)
